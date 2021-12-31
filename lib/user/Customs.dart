@@ -159,7 +159,7 @@ class drawer extends StatelessWidget {
                       style: TextStyle(fontWeight: FontWeight.bold)),
                   onTap: () {
                     Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => ViewFeedback()));
+                        MaterialPageRoute(builder: (context) => AddFeedback()));
                   },
                 ),
                 ListTile(
